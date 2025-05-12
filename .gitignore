@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual local
+.venv/
+
+# Arquivos temporários e de saída
+output/*
+!output/.gitkeep
+Ybus.xlsx
+*.log

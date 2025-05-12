@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "power-flow"
+version = "0.1.0"
+description = ""
+authors = ["gsjunqueira <giovanisjunqueira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+numpy = "^2.2.5"
+networkx = "^3.4.2"
+matplotlib = "^3.10.1"
+pathlib = "^1.0.1"
+ipykernel = "^6.29.5"
+scipy = "^1.15.2"
+openpyxl = "^3.1.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
