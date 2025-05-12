@@ -17,3 +17,8 @@ output/*
 !output/.gitkeep
 Ybus.xlsx
 *.log
+
+# Exportação de arquivo .zip
+exportada/
+exportar_projeto.sh
+power_flow_entrega.zip
